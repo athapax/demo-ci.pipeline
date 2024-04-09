@@ -3,8 +3,6 @@ pipeline {
     
     stages {
         stage('Validate') {
-            \\  when {
-                \\  branch "feature/anil"
             steps {
                 echo 'mvn clean package' 
             }
